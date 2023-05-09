@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background: rgba(0, 0, 0, 0.7) url("../src/assets/cafe.jpg");
+  height: 1080px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+section {
+  display: flex;
+}
+
+div {
+  display: flex;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 30px;
+  width: 100%;
+  height: 64px;
+  color: white;
+}
+
+.section-01 {
+  flex: 10%;
+}
+
+.section-01 h1 {
+  display: flex;
+  font-size: 42px;
+  font-weight: 300;
+  margin-left: 80px;
+}
+
+.section-01 h5 {
+  display: flex;
+  font-size: 55px;
+  color: #7efc00af;
+}
+
+.section-02 {
+  margin-right: 24px;
+}
+
+.section-02 h2 {
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+.section-02 h2:hover {
+  color: #4cd4a7dc;
+}
+
+.section-03 {
+  margin-right: 18px;
+}
+
+.section-03 img {
+  cursor: pointer;
+  width: 20px;
+}
+
+.section-03 :nth-child(2),
+.section-03 :nth-child(3) {
+  margin-left: 20px;
+}
+
+.section-04 {
+  display: flex;
+  flex-flow: column;
+  margin-top: 300px;
+  margin-left: 150px;
+  color: white;
+}
+
+.section-04 h2,
+.section-04 h4 {
+  margin-top: 20px;
+  font-size: 26px;
+  font-weight: 300;
+}
+
+.section-04 h3 {
+  font-size: 64px;
+}
+
+.section-05 {
+  display: flex;
+  margin-left: 150px;
+  margin-top: 150px;
+  height: 230px;
+}
+
+#button-01 {
+  background-color: #7efc00af;
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+#button-02 {
+  background-color: #4cd4a7dc;
+  width: 150px;
+  height: 50px;
+  margin-left: 15px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.section-06 {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: center;
+  background-color: white;
+  width: 100%;
+}
+
+.section-06 h2 {
+  align-self: center;
+  margin-top: 150px;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.section-06 h3 {
+  align-self: center;
+  font-size: 70px;
+  font-weight: 300;
+  font-size: 46px;
+}
+
+.background-01 {
+  background-color: white;
+  height: 50px;
+}
+
+.section-07 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: white;
+  color: black;
+  height: 280px;
+  width: 100%;
+}
+
+.lay-01 {
+  flex: 33%;
+  align-self: center;
+  flex-flow: column wrap;
+  text-align: center;
+  background-color: white;
+  margin-left: 10%;
+}
+
+.lay-02 {
+  flex: 33%;
+  align-self: center;
+  flex-flow: column wrap;
+  text-align: center;
+  background-color: white;
+  margin-left: 5%;
+}
+
+.lay-03 {
+  flex: 33%;
+  align-self: center;
+  flex-flow: column wrap;
+  text-align: center;
+  background-color: white;
+  margin-right: 10%;
+  margin-left: 5%;
+}
+
+.lay-01 img,
+.lay-02 img,
+.lay-03 img {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.lay-01 h3,
+.lay-02 h3,
+.lay-03 h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.lay-01 h6,
+.lay-02 h6,
+.lay-03 h6 {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.background-02 {
+  background-color: white;
+  height: 100px;
+}
+
+.background-03 {
+  background: url("../src/assets/bg-2.jpg");
+  width: 100%;
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+  justify-content: center;
+  flex-flow: column wrap;
+}
+
+.section-08 {
+  flex-flow: column wrap;
+  align-items: center;
+  color: white;
+}
+
+.section-08 h2 {
+  margin-top: 140px;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.section-08 h3 {
+  margin-top: 40px;
+  font-size: 48px;
+  font-weight: 300;
+}
+
+#button-03 {
+  background-color: #5cb800;
+  color: white;
+  border: none;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.section-09 {
+  display: flex;
+  color: black;
+  background-color: white;
+}
+
+.background-04 {
+  flex: 50%;
+  background: url("../src/assets/bg-3.png");
+  background-color: white;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 680px;
+  width: 1200px;
+}
+
+.container {
+  flex-flow: column;
+  flex: 50%;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+.container h2 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.container h3 {
+  font-size: 16px;
+  padding-right: 120px;
+  font-weight: 300;
+}
+
+.container h2,
+.container h3 {
+  margin-top: 28px;
+}
+
+.features-01 {
+  flex-flow: column;
+}
+
+.features-02 {
+  flex-flow: column;
+  margin-left: 80px;
+}
+
+.features-01,
+.features-02 {
+  margin-top: 30px;
+}
+
+.features-01 i,
+.features-02 i {
+  color: green;
+}
+
+.features-01 a,
+.features-02 a {
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 2.2;
+  color: black;
+}
+
+.logo {
+  width: 133px;
+  margin-left: 150px;
+}
+@media screen and (max-width: 1024px) {
+  .section-03 {
+    display: none;
+  }
+
+  .section-08 h3 {
+    margin-top: 40px;
+    font-size: 38px;
+    font-weight: 300;
+  }
+  .background-04 {
+    display: none;
+  }
+}
